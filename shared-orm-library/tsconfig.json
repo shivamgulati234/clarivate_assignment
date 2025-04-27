@@ -4,7 +4,7 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "experimentalDecorators": true, // Enables support for decorators
+    "experimentalDecorators": true, 
     "emitDecoratorMetadata": true,
     "skipLibCheck": true,
     "outDir": "./dist",
@@ -14,7 +14,7 @@
     "paths": {
       "shared-orm-library": ["../shared-orm-library/dist"]
     },
-    "types": ["node"]  // Only include node if necessary
+    "types": ["node"] 
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
