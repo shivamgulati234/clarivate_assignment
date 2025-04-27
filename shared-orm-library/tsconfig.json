@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "experimentalDecorators": true, // Enables support for decorators
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "shared-orm-library": ["../shared-orm-library/dist"]
+    },
+    "types": ["node"]  // Only include node if necessary
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
