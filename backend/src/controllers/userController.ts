@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { AppDataSource } from 'shared-orm-library/src/data-source'; // Automatically resolves to dist/data-source.js
+import { AppDataSource } from 'shared-orm-library/src/data-source'; 
 import { User } from 'shared-orm-library/src/entities/User';
 
 
